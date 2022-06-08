@@ -1,0 +1,90 @@
+body {
+    margin: auto;
+}
+header {
+    color: red;
+    font-family: 'Bebas Neue';
+    text-align: center;
+    margin: 0 100px 0;
+}
+.playerside {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+.computerside {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+.button-text{
+    font-weight: bolder;
+    font-size: 15px;
+    background-color: white;
+
+}
+
+.rock {
+    width: 100px;
+    height: 100px;
+    background-image: url("photos/rock.svg");
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding: 10px;
+}
+.rock:hover {
+    color: red;
+}
+.paper {
+    width: 100px;
+    height: 100px;
+    background-image: url("photos/paper.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10px;
+}
+.paper:hover {
+    color: red;
+}
+.scissors {
+    width: 100px;
+    height: 100px;
+    background-image: url("photos/scissors.svg");
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10px;
+}
+.scissors:hover {
+    color: red;
+}
+.comprock {
+    width: 100px;
+    height: 100px;
+    background-image: url("photos/rock.svg");
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding: 10px;
+}
+
+.comppaper {
+    width: 100px;
+    height: 100px;
+    background-image: url("photos/paper.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10px;
+}
+
+.compscissors {
+    width: 100px;
+    height: 100px;
+    background-image: url("photos/scissors.svg");
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10px;
+}
+.robottext {
+    margin-bottom: 0px;
+}
